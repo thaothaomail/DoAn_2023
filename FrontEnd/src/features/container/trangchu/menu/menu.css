@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+#menu .logo {
+  width: 4rem;
+}
+#menu .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  color: #faa935 !important;
+  /* text-shadow: 2px 2px 2px gray; */
+}
+#menu nav {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+#menu .nav-link.active {
+  color: #faa935 !important;
+  font-weight: 700;
+}
+#menu .navbar-light .navbar-nav .nav-link {
+  color: #000 !important;
+}
+#menu .nav-link {
+  margin-left: 0.5rem;
+  color: #000 !important;
+}
+#menu .navbar-light .navbar-nav .nav-link:hover {
+  color: teal;
+}
+#menu .bg-dark {
+  /* background-color: rgba(0, 0, 0, 0.5) !important; */
+  background-color: #fff !important;
+}
+
+#menu .drawer-menu .ant-drawer-content-wrapper {
+  width: 35% !important;
+}
+#menu2 .bg-dark {
+  border-bottom: 1px solid silver;
+}
+#menu2 .navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 1rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-weight: bold;
+}
+
+#menu2 .navbar {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+#menu2 .background {
+  background: url("https://2.bp.blogspot.com/-kHAk-Udrcw8/UMyFoK7crZI/AAAAAAAAJD0/jmyOuixbpxQ/s1600/HINH-NEN-NUI-DEP-CHO-MAY-TINH-WALLPAPER.jpg")
+    center repeat-x !important;
+  background-size: cover;
+}
+#menu2 .span.ant-dropdown-trigger.nav-link {
+  text-align: right;
+}
+.fa-bell {
+  color: #8a95b2;
+}
+.sss {
+  padding-bottom: 2rem !important;
+  padding-right: 1rem !important;
+}
+.sss-true {
+  color: rgb(100, 100, 255) !important;
+  display: block !important;
+}
+a.navbar-brand img {
+  width: 60% !important;
+  border-radius: 10px !important;
+  /* height: 50% !important; */
+}
+@media (max-width: 768px) {
+  #menu .drawer-menu .ant-drawer-content-wrapper {
+    width: 45% !important;
+  }
+}
+@media (max-width: 576px) {
+  #menu .drawer-menu .ant-drawer-content-wrapper {
+    width: 100% !important;
+  }
+  #menu2 .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  #menu2 .span.ant-dropdown-trigger.nav-link {
+    text-align: left;
+  }
+}

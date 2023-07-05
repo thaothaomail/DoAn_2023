@@ -1,0 +1,39 @@
+.breadcrumb {
+    padding-top: 1%;
+}
+#create-tour .hr-new {
+    border: 1px solid #0bbf54;
+  }
+  #create-tour .title-new{
+    position: relative;
+    margin-bottom: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  #create-tour .title-new h3{
+    font-weight: bold;
+      font-size: 27px;
+      position: absolute;
+      background-color: #ffff;
+      top: -15px;
+      padding-right: 20px;
+  }
+  #create-tour .container-createTour{
+    padding: 0rem 2rem;
+  }
+  #create-tour .head--text{
+    background-color: #e90683;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  #create-tour .head--content{
+    background-color: #f1f5f8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  

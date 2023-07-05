@@ -1,0 +1,4 @@
+.ant-tabs > .ant-tabs-nav, .ant-tabs > div > .ant-tabs-nav{
+    background-color: white;
+    z-index: 1000;
+}

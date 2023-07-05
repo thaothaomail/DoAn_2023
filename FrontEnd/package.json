@@ -1,0 +1,80 @@
+{
+  "name": "redux-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@chatscope/chat-ui-kit-react": "^1.10.1",
+    "@ckeditor/ckeditor5-build-classic": "^23.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.0",
+    "@date-io/date-fns": "^1.3.13",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.2.10",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.6",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.6.5",
+    "axios": "^0.20.0",
+    "date-fns": "^2.16.1",
+    "emailjs-com": "^2.6.4",
+    "firebase": "^8.1.1",
+    "froala-editor": "^3.2.4",
+    "google-map-react": "^2.1.6",
+    "google-maps-react": "^2.0.6",
+    "history": "^5.0.0",
+    "jodit-react": "^1.0.66",
+    "moment": "^2.29.1",
+    "query-string": "^6.13.7",
+    "react": "^17.0.1",
+    "react-animations": "^1.0.0",
+    "react-dom": "^17.0.1",
+    "react-firebaseui": "^4.1.0",
+    "react-google-maps": "^9.4.5",
+    "react-material-ui-carousel": "^2.1.1",
+    "react-multi-carousel": "^2.6.1",
+    "react-player": "^2.7.2",
+    "react-quill": "^1.3.5",
+    "react-redux": "^7.2.2",
+    "react-render-html": "^0.6.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
+    "react-sticky": "^6.0.3",
+    "react-stripe-checkout": "^2.6.3",
+    "react-trailer": "^1.2.2",
+    "swiper": "^6.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.63.4"
+  }
+}

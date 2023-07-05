@@ -1,0 +1,28 @@
+#camnang .col-md-3:hover i {
+  color: #e6f7ed;
+}
+#camnang{
+  cursor: default;
+}
+#camnang .col-md-3:hover .head_cn{
+  background-color: #0abf54;
+}
+#camnang i {
+  font-size: 1.7rem;
+  transition: 0.7s;
+  color:  #0abf54;
+}
+#camnang .head_cn{
+  width: 60px;
+  height: 60px;
+  background-color: #e6f7ed;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;align-items: center;
+  transition: 0.7s;
+}
+#camnang .content_cn p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

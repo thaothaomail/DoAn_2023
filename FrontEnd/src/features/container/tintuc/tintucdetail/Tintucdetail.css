@@ -1,0 +1,47 @@
+#new-detail .name-new{
+    font-size: 2rem;
+    color: #667eea;
+}
+.title-new-hot{
+    font-size: 1rem !important;
+}
+.icon-new{  
+    font-size: 1.2rem;
+    background-color: #f7f3f3;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+.icon-new .fab{
+    line-height: 2rem;
+}
+.icon-new .fa-facebook-f{
+    color: #4463a4;
+}
+.icon-new .fa-instagram{
+    color: #a93f43;
+}
+.icon-new .fa-twitter{
+    color: #2e95e0;
+}
+/* .tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(196, 197, 202);
+    border-radius: 100%;
+} */
+.tag{
+    background-color: rgb(212, 207, 207);
+    padding-left: 0.5rem;
+    font-size: .8rem;
+    padding-right: 0.5rem;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    color: rgb(25, 158, 8);
+}

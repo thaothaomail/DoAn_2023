@@ -1,0 +1,129 @@
+.content_tour {
+  position: absolute;
+  color: white;
+  top: 80%;
+  left: 10%;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  text-shadow: #0b2727 1px 0 10px;
+}
+#tour .img {
+  overflow: hidden;
+}
+#tour .img img {
+  transition: 0.5s;
+  width: 400px;
+  height: 450px;
+}
+
+#tour a:hover img {
+  transform: scale(1.05);
+  filter: brightness(50%);
+}
+#tour .money {
+  font-size: 1rem;
+}
+#tour .ant-rate {
+  font-size: 1.2rem;
+}
+
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: 10px;
+  z-index: 9;
+}
+
+.ribbon-red {
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #f53838;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f53838),
+    to(#e10808)
+  );
+  background-image: -webkit-linear-gradient(top, #f53838, #e10808);
+  background-image: -moz-linear-gradient(top, #f53838, #e10808);
+  background-image: -ms-linear-gradient(top, #f53838, #e10808);
+  background-image: -o-linear-gradient(top, #f53838, #e10808);
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ribbon-red:before,
+.ribbon-red:after {
+  content: "";
+  border-top: 3px solid #6e8900;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  bottom: -3px;
+}
+
+.ribbon-red:before {
+  left: 0;
+}
+
+.ribbon-red:after {
+  right: 0;
+}
+
+.xem-them a {
+  border: 1px solid #faa935;
+  color: #000 !important;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #fff;
+}
+@media (max-width: 1125px) {
+  #tour .ant-rate {
+    font-size: 0.9rem;
+  }
+  #tour .content_tour {
+    top: 74%;
+  }
+  .tour .img img {
+    transition: 0.5s;
+    width: 350px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  #tour .title_tour {
+    font-size: 0.9rem;
+  }
+  #tour .money {
+    margin-left: 0 !important;
+  }
+  #tour .content_tour {
+    top: 55%;
+  }
+  .tour .img img {
+    transition: 0.5s;
+    width: 300px;
+    height: 320px;
+  }
+}

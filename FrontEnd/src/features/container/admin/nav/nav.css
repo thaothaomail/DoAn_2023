@@ -1,0 +1,35 @@
+#nav .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+#nav .trigger:hover {
+    color: #1890ff;
+  }
+  
+#nav .logo {
+    height: 32px;
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+    font-size: 1.2rem;
+  }
+  #nav .logo a{
+    color: white;
+  }
+  
+#nav .site-layout .site-layout-background {
+    background: #fff;
+  }
+/* #nav .counthoadon{
+  color: red;
+  position: absolute;
+  border: 1px solid ;
+} */
+#nav .bordercount{
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+}

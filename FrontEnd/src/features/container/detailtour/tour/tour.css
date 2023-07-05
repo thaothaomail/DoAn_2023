@@ -1,0 +1,76 @@
+#detail-tour .col-lg-4{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#detail-tour .col-lg-8{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.icon-comment .cmd {
+    font-size: 1.2rem;
+    color: black;
+    margin-right: .5rem;
+}
+#detail-tour .tt-tour{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.MuiButtonBase-root:focus{
+    outline: none;
+}
+#detail-tour .MuiButtonBase-root{
+    right: 10%;
+    bottom: 10%;
+}
+#detail-tour .price{
+    bottom: 8%;
+    font-size: 1.1rem;
+}
+#detail-tour .view{
+    clear: both;
+    font-size: 1rem;
+}
+#detail-tour .icon-comment span{
+    font-size: 1rem;
+    position: relative;
+    top: 5px;
+}
+#detail-tour input{
+    outline: none;
+}
+/* .icon-comment strong {
+    position: relative;
+    top: .1rem;
+} */
+/* #detail-tour .hr-tour{
+    padding-right: 20px !important;
+} */
+@media(max-width:992px){
+    #detail-tour .col-lg-4{
+        height: 240px;
+    }
+    #detail-tour .MuiButtonBase-root{
+        right: 5%;
+        bottom: 5%;
+    }
+    #detail-tour .price{
+        bottom: 4%;
+    }
+}
+.breadcrumb{
+    padding: 0;
+    /* margin-top: 2rem; */
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 1rem;
+    letter-spacing: 0;
+}
+.btn-dt a{
+    color: white;
+}
+.ant-message{
+    z-index: 9999999 !important;
+}
+.dieukhoan{
+    height: 200px;
+    overflow: scroll;
+}

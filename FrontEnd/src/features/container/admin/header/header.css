@@ -1,0 +1,73 @@
+#header .navbar-expand {
+    background-color: silver;
+}
+
+#header .navbar-expand .navbar-nav .dropdown-menu {
+    left: -95px;
+}
+
+#header .navbar-nav {
+    flex-direction: row !important;
+    line-height: 55px;
+    margin-right: 15px;
+}
+
+#header .text-gray-400 {
+    color: #d1d3e2 !important;
+}
+
+#header .pick {
+    cursor: pointer;
+}
+
+#header .shadow {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+#header a {
+    color: #5a5c69 !important;
+    line-height: 23px;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+#header .MuiAvatar-root {
+    top: 15px;
+}
+.ant-drawer-content-wrapper{
+    width: 40%!important;
+}
+@media (max-width: 768px) {
+    .ant-drawer-content-wrapper{
+      width: 45% !important;
+    }
+  }
+  @media (max-width: 576px) {
+    .ant-drawer-content-wrapper{
+      width: 100% !important;
+    }
+  }
+  
+.tt-user{
+    color: gray;
+}
+.tab{
+    padding-left: 15px;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.avatar-admin{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
