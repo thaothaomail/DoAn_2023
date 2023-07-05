@@ -1,0 +1,45 @@
+.history__content{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+a .history__box{
+    color: black;
+}
+.history__box{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+.history__box img{
+    border-radius: 10px;
+    width: 128px !important;
+    height: 160px !important;
+}
+.history__tour{
+    width: 100%;
+    margin-left: 1.3rem;
+}
+.history--left{
+    width: 55%;
+}
+.history--name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(65, 65, 247);
+}
+.history--infor{
+    margin-top: .5rem;
+    font-size: 1rem;
+    display: flex;
+}
+.history--infor table.nmn{
+    margin-left: 6rem;
+}
+.history--infor th{
+    font-weight: 600;
+    margin-left: 1rem;
+}

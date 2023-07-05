@@ -1,0 +1,17 @@
+.duyettour__box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1.2rem 1rem 1.2rem 1rem;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+}
+.duyettour--name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn__tour{
+    position: absolute;
+    right: 7%;
+    top: 30%;
+}

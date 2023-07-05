@@ -1,0 +1,52 @@
+.news-box img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.news-box {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 3px silver;
+  height: 100%;
+  width: 100%;
+}
+
+#news a:hover img {
+  transform: scale(1.03);
+}
+
+.heading strong {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+#news .row .content-news p {
+  padding: 0px 1rem 0rem 1rem;
+}
+
+#news .row .row .heading {
+  margin: 0;
+  padding: 0;
+}
+#news .row .row .row .col-8 {
+  margin: 0;
+  padding: 5px 14px 0px 0rem;
+}
+
+#news .row .row img {
+  /* width: 30%; */
+  height: 63px;
+}
+
+#news a {
+  text-decoration: none;
+  color: rgb(29, 27, 27);
+}
+
+#news .col-md-12 {
+  margin-bottom: 1rem;
+}
+.xem-them a {
+  color: #000 !important;
+}

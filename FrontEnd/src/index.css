@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif !important;
+  background-color: #fff;
+}
+
+.heading span {
+  font-size: 2rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+.heading p {
+  font-size: 1rem;
+}
+.hr {
+  height: 2px;
+  width: 200px;
+  background-color: #faa935;
+  margin: 0 auto;
+}
+.xem-them {
+  position: absolute;
+  width: 90px;
+  right: 5%;
+  padding-bottom: 2rem;
+}
+#admin .heading h4 {
+  text-align: center;
+}
+#admin .form-control:focus {
+  box-shadow: none;
+}
+svg {
+  vertical-align: baseline;
+}
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  border: none !important;
+}
+.ant-layout-sider {
+  min-height: 100vh;
+}
+.spin {
+  text-align: center;
+}
+#admin textarea {
+  resize: none;
+}
+.spinner-border.text-success {
+  left: -2%;
+  position: relative;
+  bottom: -10px;
+  color: #3f51b5 !important;
+}
+#error {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#admin .content i {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #c6ffdd, #fbd786, #0083b0);
+  border-radius: 100rem;
+}
+
+::-webkit-scrollbar-thumb-hover {
+  background-color: #ccc;
+  border-radius: 100rem;
+}

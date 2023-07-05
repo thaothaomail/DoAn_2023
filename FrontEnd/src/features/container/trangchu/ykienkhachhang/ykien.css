@@ -1,0 +1,53 @@
+#ykien i {
+  color: #cac6c5;
+  font-size: 1.2rem;
+}
+
+#ykien .ant-avatar {
+  width: 70px !important;
+  height: 70px !important;
+}
+#ykien .content-yk p {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#ykien .content-yk {
+  border: 1px solid #0abf54;
+}
+#ykien .fixed {
+  background-image: url("https://123anhdep.net/wp-content/uploads/2016/03/bst-hinh-anh-phong-canh-thien-nhien-tuyet-dep-lang-man-tho-mong-hung-vi-nhat-the-gioi-1.jpeg");
+  z-index: -1;
+}
+#ykien .fixed-background {
+  position: relative;
+  width: 100%;
+}
+#ykien .fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+#ykien .fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+#ykien .dark {
+  background-color: #66ccff;
+  color: white;
+}

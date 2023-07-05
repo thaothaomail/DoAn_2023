@@ -1,0 +1,52 @@
+#detailHotel .content___title---name h3 {
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  #detailHotel .content___title---star {
+    font-weight: 400;
+  }
+  #detailHotel .content hr {
+    margin-bottom: 2rem;
+  }
+  #detailHotel .content___box---slide img {
+    width: 100%;
+  }
+  #detailHotel .content___box---map .map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  #detailHotel .content___box---map .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  #detailHotel .content___box .pdBox {
+    padding: 0rem 1.2rem;
+    background-color: #f3f3f3;
+  }
+  #detailHotel .content___box---infor---btn {
+    text-align: center;
+    padding: 1rem;
+  }
+  #detailHotel .content___box---infor---btn a {
+    /* padding: 0.5rem 5rem;
+    text-decoration: none;
+    background-color: red; */
+  }
+  #detailHotel .content___box---contact {
+    font-size: 0.9rem;
+  }
+  #detailHotel .content___box---contact .text-danger {
+    font-weight: bold;
+  }
+  #detailHotel .col-md-4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  

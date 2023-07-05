@@ -1,0 +1,34 @@
+.ant-pagination-disabled {
+    border: none !important;
+}
+.action{
+    font-size: 1.2rem;
+}
+.action .fa-edit{
+    color: rgb(14, 177, 14);
+}
+.action .fa-trash-alt{
+    color: red;
+}
+.action .fa-thumbs-down{
+    color: red;
+}
+#admin th.ant-table-cell{
+    font-weight: bold;
+    background-color: rgb(206, 199, 199);
+}
+#admin .ct{
+    font-size: .9rem;
+
+}
+#admin .content{
+    margin-top: 2rem;
+}
+#admin .mtb{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#admin .add{
+    text-align: right;
+    margin-bottom: 1rem;
+}

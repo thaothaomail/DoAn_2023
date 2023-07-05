@@ -1,0 +1,16 @@
+#map_home>.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height: 50% ;
+    }
+#map_home>.map-container iframe{
+    left:0;
+    top:0;
+    height:50%; 
+    width:100%;
+    position:absolute;
+}
+#map_home{
+    height: 500px;
+}

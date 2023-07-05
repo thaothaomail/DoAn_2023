@@ -1,0 +1,70 @@
+#contact .content {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    margin-bottom: 4rem;
+  }
+  #contact .content___box {
+    display: flex;
+  }
+  #contact .content___box___left {
+    width: 50%;
+    text-align: center;
+  }
+  #contact .content___box___left___title .contact_name {
+    font-size: 1.2rem;
+    color: #09be53;
+  }
+  #contact .content___box___left___title h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+  }
+  #contact .fa-envelope{
+    color: palevioletred;
+    margin-right: .7rem;
+}
+  #contact .content___box___left___title .contact_number {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+    border: 1px solid #09be53;
+    width: 35%;
+    border-radius: 3px;
+  }
+  #contact .content___box___left___title .contact_number-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+  }
+  #contact .content___box___left___title .contact_number-a p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  #contact .content___box___left___title .contact_img img {
+    width: 90%;
+  }
+  #contact .content___box___right {
+    width: 50%;
+  }
+  #contact input:focus {
+    box-shadow: none;
+  }
+  #contact textarea {
+    resize: none;
+  }
+  #contact textarea:focus {
+    box-shadow: none;
+  }
+  #contact .color-red {
+    color: red;
+  }
+  #contact .btn-dt{
+      display: flex;
+      justify-content: center;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  

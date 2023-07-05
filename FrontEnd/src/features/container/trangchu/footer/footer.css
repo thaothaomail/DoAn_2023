@@ -1,0 +1,77 @@
+#footer {
+  background-color: #fff;
+  color: #0b2727;
+  font-family: "Montserrat ", sans-serif;
+}
+/* #footer i {
+  color: #c13e21;
+} */
+/* #footer .mxh i {
+  padding: 11px 14px;
+  border-radius: 100%;
+  font-size: 1rem;
+  margin-right: 1rem;
+  background: white;
+  transition: 0.5s;
+  cursor: pointer;
+} */
+/* #footer .fa-facebook-f {
+  color: #3f64ab;
+} */
+/* #footer .fa-facebook-f:hover {
+  color: white;
+  background-color: #3f64ab;
+} */
+/* #footer .fa-twitter {
+  color: #1d9ceb;
+}
+#footer .fa-twitter:hover {
+  color: white;
+  background-color: #1d9ceb;
+} */
+/* #footer .fa-instagram {
+  color: #dc2743;
+  transition: 0.5s;
+}
+#footer .fa-instagram:hover {
+  color: white;
+
+  
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); 
+} */
+.icon_footer {
+  background-color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
+  transition: 0.5s;
+  position: relative;
+}
+.icon_footer:hover {
+  transform: scale(1.2);
+}
+.row h5 {
+  color: #ff7e01;
+  font-family: "Montserrat ", sans-serif;
+}
+.list-unstyled a {
+  color: #8b7d6b;
+}
+.footer-copyright a {
+  color: #6e7074;
+}
